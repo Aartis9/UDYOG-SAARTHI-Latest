@@ -4,7 +4,7 @@
 
 2.Priyojit Kundu
 
-3.Arati Kumari
+3.Aarti Kumari
 4.Subhodeep Mukherjee 
 # Backend team:-
 1.Shuvam Sardar
