@@ -63,3 +63,19 @@
 .jobs-btn88:active{
     transform: scale(0.92);
 }
+@media(max-width:768px){
+    .root{
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+    .cards88{
+        width: 100vw !important;
+        display: flex !important;
+        flex-direction: column !important;
+        /* width: 120vw !important; */
+    }
+    .card88{
+        width:90vw !important;
+    }
+
+}

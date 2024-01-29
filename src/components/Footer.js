@@ -12,7 +12,7 @@ const Footer = () => {
           <h3>Udyog Saarth</h3>
           <p><a href="mailto:sih.pro.2023@gmail.com">sih.pro.2023@gmail.com</a></p>
           <p><a href="tel:+918017268693">+91 8017268693</a></p>
-          <p><a href="https://wa.me/8017268693">Whatsapp us </a><p>
+          <p><a href="https://wa.me/8017268693">Whatsapp us </a></p>
         </div>
 
         <div className='section88'>
