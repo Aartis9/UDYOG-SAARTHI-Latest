@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
 
       </div>
-      <h4>Made with ❤️ -Team Radhe Radhe</h4>
+      <h4>Made with ❤️ -Hexacoders</h4>
     </div>
   );
 }
