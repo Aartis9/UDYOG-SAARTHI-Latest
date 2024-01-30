@@ -5,7 +5,32 @@
   height: 75px;
   box-shadow: 0 0 6px 3px rgba(127, 126, 126, 0.3);
 }
-
+.navlogo11{
+  width:140px;
+}
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: #fff !important;
+}
+.linkname{
+  font-size: 1.5rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-color: #f58840;
+  border-radius: 10px;
+  border-width: 2px;
+  color: #f58840;
+  /* font-family: "Roboto", sans-serif; */
+}
+.css-19r6kue-MuiContainer-root {
+  width: 100%;
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-right: auto;
+  display: block;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: white;
+}
 .nav-links88 {
   display: flex;
   align-items: center;

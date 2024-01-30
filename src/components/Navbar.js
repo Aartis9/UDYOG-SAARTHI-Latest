@@ -34,7 +34,7 @@ const Navbar = (props) => {
   const fetchProfile = async () => {
     try {
       console.log(token);
-      const response = await fetch(`${process.env.REACT_APP_SERVER_BASE_URL}/profile/getuserdetails`, {
+      const response = await fetch(`http://localhost:3000/api/v1/profile/getuserdetails`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
