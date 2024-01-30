@@ -106,8 +106,11 @@
     }
     .foot88{
         display: flex !important;
-        
+        flex-direction: column !important;
         /* justify-content: space-around !important; */
+    }
+    .content88{
+        width:90vw !important;
     }
 
 }

@@ -13,7 +13,8 @@ const Heading = () => {
           <p>Looking for a job?</p>
         </div>
 
-        <div className='content88'>
+        <div className='content88'>  
+        {/* Changes */}
           <h1 style={{fontSize:"4rem",marginBottom:"0px"}}>Find your <span>dream job</span> and secure your <span>future</span> </h1>
           <h3>Let's start joining us and get your job</h3>
           <h4>10,000 over jobs </h4>
