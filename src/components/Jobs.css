@@ -112,5 +112,12 @@
     .content88{
         width:90vw !important;
     }
+    .story-head88 {
+        font-size: 4.5rem;
+        font-family: 'Merriweather', serif;
+        padding-left: 10px;
+        text-align: center;
+        padding-right: 10px;
+    }
 
 }

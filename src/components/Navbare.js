@@ -19,21 +19,10 @@ import { FiLogOut, FiSettings, FiBookmark, FiHelpCircle } from 'react-icons/fi';
 import Swal from 'sweetalert2';
 
 import { Link, NavLink, useNavigate } from "react-router-dom";
-const page2=[{name:'Home',link:'/'},{name:'Private Jobs',link:'/private'},{name:'Goverment Jobs',link:'/goverment'},{name:'Trainings & Courses',link:'/courses'},{name:'About us',link:'/about'},{name:'Contact',link:'/contact'}]
-const pages = ['Home', 'Private Jobs', 'Goverment Jobs', 'Trainings & Courses', 'About us', 'Contact'];
-const links=['/','/private','/goverment','/courses','/about','/contact']
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
-
-
-
-
-
-
-
-
-
-
-
+// const page2=[{name:'Home',link:'/'},{name:'Private Jobs',link:'/private'},{name:'Goverment Jobs',link:'/goverment'},{name:'Trainings & Courses',link:'/courses'},{name:'About us',link:'/about'},{name:'Contact',link:'/contact'}]
+// const pages = ['Home', 'Private Jobs', 'Goverment Jobs', 'Trainings & Courses', 'About us', 'Contact'];
+// const links=['/','/private','/goverment','/courses','/about','/contact']
+// const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 
 function ResponsiveAppBar() {
@@ -231,9 +220,9 @@ const token = sessionStorage.getItem('token');
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
+              {page2.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography textAlign="center"><Link to={page.link}><div className='linkname'>{page.name}</div></Link></Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -264,7 +253,7 @@ const token = sessionStorage.getItem('token');
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                <Link to='/'><div className='linkname'>{page.name}</div></Link>
+                <Link to={page.link}><div className='linkname'>{page.name}</div></Link>
               </Button>
             ))}
             
